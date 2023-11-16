@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUPF</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap');
+        
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+          </style>
+</head>
+<body>
+    <main class="main">
+        <div class="left">
+            <div><img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="odinLogo" width="70px"></div>
+            <div></div>
+            <div></div>
+            <p class="reffer">photo by <a href="https://www.instagram.com/jasamsone/" target="_blank">jasamsone</a></p>
+        </div>
+        <div class="right-form">
+            <h1 class="heading">Fungi <br/>
+                <span class="head">a</span><br/>
+                <span class="head">c</span><br/>
+                <span class="head">t</span><br/>
+                
+            </h1>
+            <p class="headerForm">Sign up for your  fungi fun newsletter where you'll get weekly updates of graphs, news, diagrams and species of fungi from all over the planet</p>
+            <form class="form">
+                <fieldset class="field" >
+                    
+                    <label 
+                    for="fname">
+                        <span class="lab">First Name</span>
+                        <input
+                        oninput="change()"
+                        required="required"
+                        type="text" 
+                        name="fname" 
+                        id="fname"\
+                        class="has-content">
+                    </label>
+
+                    <label 
+                    for="lname">
+                        <span 
+                        class="lab">Last Name</span>
+                        <input
+                        required="required"
+                        type="text" 
+                        name="lname" 
+                        id="lname"
+                        class="has-content">
+                    </label>
+
+                    <label 
+                    for="email">
+                        <span class="lab">Email</span>
+                        <input 
+                        required="required"
+                        type="email" 
+                        name="email" 
+                        id="email"
+                        class="has-content">
+                    </label>
+
+                    <label 
+                    for="phone">
+                        <span class="lab">Phone</span>
+                        <input 
+                        required="required"
+                        type="tel" 
+                        name="phone" 
+                        id="phone"
+                        class="has-content">
+                    </label>
+
+                    <label 
+                    for="password">
+                        <span class="lab">Password</span>
+                        <input 
+                        required="required"
+                        type="password" 
+                        name="password" 
+                        id="password"
+                        class="has-content"></label>
+
+                    <label for="rep-password">
+                            <span class="lab">Confirm Password</span>
+                            <input 
+                        required="required"
+                            type="password" 
+                            name="rep-password" 
+                            id="rep-password"
+                            class="has-content" />
+                        </label>
+
+                </fieldset>
+                <button>Subscribe</button>
+                <p></p>
+            </form>
+        </div>
+    </main>
+    <script src="./index.js" ></script>
+
+</body>
+</html>

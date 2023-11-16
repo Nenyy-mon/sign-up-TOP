@@ -1,0 +1,188 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Alef;
+    color: wheat;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    width: 40%;
+    height: 100%;
+    background-image: url(./assets/_SON0571.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+    box-shadow: 14px 0px 33px -17px rgba(0, 0, 0, 0.96);
+    -webkit-box-shadow: 14px 0px 33px -17px rgba(0, 0, 0, 0.96);
+    -moz-box-shadow: 14px 0px 33px -17px rgba(0, 0, 0, 0.96);
+}
+
+.right-form {
+    height: 100%;
+    width: 60%;
+    background-color: #0F0704;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reffer {
+    color: #58606D;
+    position: absolute;
+    bottom: 5px;
+}
+
+a {
+    color: #A7B8D9;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.form {
+    width: 80%;
+    height: 50%;
+}
+
+.headerForm {
+    color: #AEBDDC;
+    font-size: 20px;
+    width: 80%;
+    margin-top: -170px;
+    margin-left: -10px;
+}
+
+.heading {
+    color: #856550;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    font-size: 50px;
+    padding-left: 40px;
+    margin-top: 0;
+    width: 100%;
+    text-shadow: 3px 5px 9px rgba(127, 97, 77, 0.17);
+}
+
+span.head {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    line-break: 0;
+}
+
+.field {
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+}
+
+label {
+    font-size: 10px;
+}
+
+input {
+    height: 20px;
+    background-color: #856550;
+    border-bottom: 5px solid #856550;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: wheat;
+    box-shadow: 0px 0px 70px -17px rgba(113, 92, 75, 0.88);
+    -webkit-box-shadow: 0px 0px 70px -17px rgba(113, 92, 75, 0.88);
+    -moz-box-shadow: 0px 0px 70px -17px rgba(113, 92, 75, 0.88);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: start;
+    padding: 1px;
+    align-items: center;
+}
+
+input::selection {
+    background-color: #0F0704;
+}
+
+input:focus {
+    outline: none;
+}
+
+span.lab {
+    position: absolute;
+    z-index: 10;
+    margin-left: 20px;
+    margin-top: -15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 1s;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #856550;
+}
+label:focus-within span.lab,
+input:valid + span.lab,
+input:focus + span.lab,
+input:not(:placeholder-shown) + span.lab {
+    margin-top: -10px;
+    background-color: #856550;
+    border-radius: 5px;
+    padding: 5px;
+}
+input + span.lab {
+    margin-top: -10px;
+    background-color: #856550;
+    border-radius: 5px;
+    padding: 5px;
+}
+.valid {
+    margin-top: -10;
+}
+input.has-content + span.lab,
+input:focus + span.lab {
+    margin-top: -10px;
+    background-color: #856550;
+    border-radius: 5px;
+    padding: 5px;
+}
+input::placeholder {
+    opacity: 0; /* Hide the default placeholder when custom styling is applied */
+}
+
+input::selection {
+    background-color: #0f0704;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    margin-top: -50px;
+    margin-left: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #856550;
+    color: wheat;
+    cursor: pointer;
+    box-shadow: 2px 2px 56px -11px rgba(113, 92, 75, 0.85);
+    -webkit-box-shadow: 2px 2px 56px -11px rgba(113, 92, 75, 0.85);
+    -moz-box-shadow: 2px 2px 56px -11px rgba(113, 92, 75, 0.85);
+}
